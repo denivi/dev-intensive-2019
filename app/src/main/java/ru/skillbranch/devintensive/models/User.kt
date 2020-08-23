@@ -27,7 +27,7 @@ data class User(
         private  var lastID : Int = -1
             fun makeUser(fullName : String?) : User{
                 lastID++
-                val (firstName, lastName)  = Utils.parsFullName(fullName)
+                val (firstName, lastName)  = Utils.parseFullName(fullName)
                 return User(id = "$lastID", firstName = firstName, lastName = lastName)
             }
     }
