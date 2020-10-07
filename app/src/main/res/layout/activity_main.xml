@@ -53,9 +53,6 @@
             android:contentDescription="send"
             android:layout_width="@dimen/spacing_large_24"
             android:layout_height="@dimen/spacing_large_24"
-            android:src="@drawable/ic_baseline_send_24"
-            android:layout_gravity="center"
-            android:layout_marginRight="@dimen/spacing_normal_16"/>
-
+            android:src="@drawable/ic_baseline_send_24" />
     </LinearLayout>
 </LinearLayout>
